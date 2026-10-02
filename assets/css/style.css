@@ -257,16 +257,17 @@ a:hover { color: var(--navy); }
 
 .hero-inner {
   display: grid;
-  grid-template-columns: 1.3fr 1fr;
+  grid-template-columns: 1.6fr 1fr;
   align-items: center;
   gap: 3rem;
 }
 
 .hero h1 {
-  font-size: clamp(2.3rem, 5vw, 3.6rem);
+  font-size: clamp(1.75rem, 4.2vw, 3.4rem);
   font-weight: 750;
-  max-width: 14ch;
 }
+/* One line per span: "CoReLab –" / "The Computational" / "Research Laboratory" */
+.hero h1 span { display: block; }
 
 .lead {
   font-size: 1.2rem;
@@ -646,6 +647,7 @@ address { font-style: normal; color: var(--text-muted); }
 
 @media (max-width: 760px) {
   .hero-inner { grid-template-columns: 1fr; }
+  .hero h1 { font-size: clamp(1.75rem, 8vw, 2.6rem); }
   .hero-visual { display: none; }
 }
 
