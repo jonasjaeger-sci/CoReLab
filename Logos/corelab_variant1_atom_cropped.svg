@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="122" viewBox="30 18 460 122">
+  <title>CoReLab – Computational Research Laboratory, University of Stavanger</title>
+  <!-- corelab_variant1_atom.svg with the empty margins cropped (used in the footer).
+       "University of Stavanger" uses #4A9AD4 instead of #A8CBEA for legibility. -->
+
+  <!-- Atom icon -->
+  <circle cx="88" cy="75" r="52" fill="none" stroke="#A8CBEA" stroke-width="2.5"/>
+  <circle cx="88" cy="75" r="36" fill="#0062A3"/>
+  <ellipse cx="88" cy="75" rx="52" ry="22" fill="none" stroke="#4A9AD4" stroke-width="1.5" opacity="0.6" transform="rotate(50 88 75)"/>
+  <ellipse cx="88" cy="75" rx="52" ry="22" fill="none" stroke="#4A9AD4" stroke-width="1.5" opacity="0.6" transform="rotate(-50 88 75)"/>
+  <circle cx="88" cy="75" r="10" fill="#A8CBEA"/>
+
+  <!-- Divider -->
+  <rect x="162" y="25" width="2" height="100" rx="1" fill="#A8CBEA"/>
+
+  <!-- Wordmark -->
+  <text x="178" y="91" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700" fill="#0062A3" letter-spacing="-1">Co<tspan fill="#4A9AD4">Re</tspan><tspan font-weight="300">Lab</tspan></text>
+
+  <!-- Tagline -->
+  <text x="178" y="117" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#444444" letter-spacing="2.5">COMPUTATIONAL RESEARCH LABORATORY</text>
+  <text x="178" y="134" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#4A9AD4" letter-spacing="1.5">University of Stavanger</text>
+</svg>
