@@ -14,7 +14,7 @@ Live site: https://jonasjaeger-sci.github.io/CoReLab/ (repo `jonasjaeger-sci/CoR
 - `assets/css/style.css` holds the color palette and spacing tokens on `:root`. Use those variables instead of hard-coded colors.
 - `assets/js/main.js` handles the mobile menu toggle, highlights the active nav link (via IntersectionObserver on `main > section[id]`), and sets the footer year.
 - `Logos/` contains the CoReLab logos. The site uses variant 1 (atom). `corelab_mark.svg` is the icon-only version, used for the favicon, header, and hero.
-- `Images/` contains the UiS logos (opaque white background, so only place them on white). Member photos go in `Images/members/`, which has `placeholder.svg` as the default.
+- `Images/` contains the UiS logos (opaque white background, so only place them on white or use `mix-blend-mode: multiply`). `UiS_Logo_mark.png` is a cropped copy of `UiS_Logo.png`, used at the right of the header. Member photos go in `Images/members/`, which has `placeholder.svg` as the default.
 
 ## Content conventions
 
